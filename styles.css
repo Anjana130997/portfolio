@@ -25,7 +25,7 @@ body{
 }
 .info{
   height: 50px;
-  width: 370px;
+  width: auto;
   display: flex;
   position: absolute;
   right: 1px;
@@ -193,6 +193,16 @@ body{
       font-size: 32px;
   }
 }
+#resume-btn2 button{
+  padding: 12px;
+  background-color:#fed700;
+  color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  font: bold;
+  margin-left: 20px;
+}
+
 .resumebtn button{
   padding: 12px 25px;
   background-color:#202020;
@@ -273,7 +283,7 @@ body{
 }
 .procont{
   height: auto;
-  min-height: 530px;
+  min-height: 580px;
   width: 90%;
   display: flex;
   justify-content: center;
@@ -281,7 +291,7 @@ body{
   flex-wrap: wrap;
 }
 .probox{
-  height: 530px;
+  height: 580px;
   width: 300px;
   display: flex;
   align-items: center;
@@ -291,6 +301,11 @@ body{
   border-radius: 5px;
   margin: 20px;
   position: relative;
+}
+
+.probox:hover{
+  border-color: #fed700;
+
 }
 @media screen and (max-width:600px) {
   .probox{
@@ -432,6 +447,11 @@ body{
 
 .cover_img{
   width:300px;
+
+}
+
+.cover_img:hover{
+  transform: scale(1.1);
 
 }
 #gitStatCals{
